@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *  - Nodier Alberto Alzate Solano
  *  - ChatGPT4
  */
-public class InglesaIterativoDinamico {
+public class InglesaDinamicoIterativo {
 
     /**
      * Metodo main para testear el funcionamiento del algoritmo
@@ -22,6 +22,7 @@ public class InglesaIterativoDinamico {
         arrNum1.add(1);
         arrNum1.add(2);
         arrNum1.add(3);
+
         ArrayList<Integer> arrNum2 = new ArrayList<>();
         arrNum2.add(4);
         arrNum2.add(5);
