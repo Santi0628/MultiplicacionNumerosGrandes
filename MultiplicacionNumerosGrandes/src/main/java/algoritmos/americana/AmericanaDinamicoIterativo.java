@@ -1,4 +1,4 @@
-package algoritmos.dinamicos;
+package algoritmos.americana;
 
 import java.util.ArrayList;
 import java.util.Collections;

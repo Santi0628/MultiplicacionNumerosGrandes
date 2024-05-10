@@ -1,6 +1,6 @@
-package algoritmos.estaticos;
+package algoritmos.hindu;
 
-public class Hindu {
+public class HinduEstaticoIterativo {
 
         public static void main(String[] args) {
             int[] arrNum1 = { 1, 2, 3 };
@@ -21,12 +21,6 @@ public class Hindu {
                     result[i + j] += sum / 10; // Lleva el exceso al dígito anterior
                     result[i + j + 1] = sum % 10; // Guarda el dígito en la posición adecuada
                 }
-            }
-
-            // Imprimir Resultado
-            System.out.println("Hindu resultado: ");
-            for (int j : result) {
-                System.out.print(j);
             }
         }
 }

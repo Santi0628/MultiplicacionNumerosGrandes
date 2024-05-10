@@ -1,4 +1,4 @@
-package algoritmos.dinamicos;
+package algoritmos.inglesa;
 import java.util.ArrayList;
 
 /**
@@ -29,7 +29,7 @@ public class InglesaDinamicoIterativo {
         arrNum2.add(6);
 
         // Se llama al método de multiplicación inglesa y se imprime el resultado
-        ArrayList<Integer> result = multiplicacionInglesa(arrNum1, arrNum2);
+        ArrayList<Integer> result = inglesaIterativoDinamico(arrNum1, arrNum2);
         System.out.println("Ingles resultado: ");
         for (int num : result) {
             System.out.print(num);
@@ -43,7 +43,7 @@ public class InglesaDinamicoIterativo {
      * @return resultado retorna el resultado de la multiplicacion digito a digito
      * en un arraylist.
      */
-    public static ArrayList<Integer> multiplicacionInglesa(ArrayList<Integer> arreglo1, ArrayList<Integer> arreglo2) {
+    public static ArrayList<Integer> inglesaIterativoDinamico(ArrayList<Integer> arreglo1, ArrayList<Integer> arreglo2) {
 
         // Se determina el tamaño del ArrayList resultado
         int tam = arreglo1.size() + arreglo2.size();

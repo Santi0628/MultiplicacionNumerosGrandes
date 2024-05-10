@@ -1,4 +1,4 @@
-package algoritmos.dinamicos;
+package algoritmos.americana;
 
 import java.util.ArrayList;
 
@@ -44,10 +44,11 @@ public class AmericanaDinamicoRecursivo {
         calcularSumaTotalRecursivo(arreglo1, arreglo2, 0, 0, sumaTotal, productosParciales);
         // Se realiza el acarreo hacia la derecha recursivamente
         realizarAcarreoDerechaRecursivo(sumaTotal, sumaTotal.length - 1);
+
         // Se convierte el arreglo resultante en un número entero
-        int resultado = convertirArregloANumero(sumaTotal, 0, 0);
+        //int resultado = convertirArregloANumero(sumaTotal, 0, 0);
         // Se imprime el resultado de la multiplicación
-        System.out.println("El resultado de la multiplicación es: " + resultado);
+        //System.out.println("El resultado de la multiplicación es: " + resultado);
     }
 
     // Calcula los productos parciales de manera recursiva

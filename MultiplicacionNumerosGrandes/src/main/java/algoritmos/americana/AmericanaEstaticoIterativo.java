@@ -1,4 +1,4 @@
-package algoritmos.estaticos;
+package algoritmos.americana;
 
 /**
  * Este programa implementa el algoritmo de multiplicación americana de manera iterativa y estatica,
