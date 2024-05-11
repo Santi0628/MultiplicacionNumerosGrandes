@@ -5,6 +5,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * Clase Resultados que se usa de herramienta para guardar y obtener la ruta raiz del proyecto.
+ */
 public class Resultados 
 {
     public static void guardar(String cadena, String rutaArchivo) 

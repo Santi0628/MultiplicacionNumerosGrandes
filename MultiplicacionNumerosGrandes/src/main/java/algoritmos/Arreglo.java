@@ -10,19 +10,30 @@ import java.util.Random;
 
 public class Arreglo
 {
-   
+
+    /**
+     * Metodo usado para generar los casos de prueba segun se indice en el arreglo casos.
+     */
     public static void main(String[] args) 
     {
-        int[] casos = {128, 256, 512, 1024, 2048};
+        /*
+         Aca se ingresan los casos a generar.
+         */
+        int[] casos = {19500};
 
+        // Genera el arreglo y asigna.
         for (int i : casos)
         {
             generar(i, "arreglo_" + i);
         }
         
-        // int[] test = cargar_arreglo("arreglo_100");
     }
 
+    /**
+     * Genera los numeros y envia al txt
+     * @param size representa el tamaño
+     * @param file representa el archivo arreglo_tamaño
+     */
     private static void generar (int size, String file)
     {
         Random r = new Random(123);
@@ -39,6 +50,11 @@ public class Arreglo
 
     }
 
+    /**
+     * Se usa para cargar un txt dentro de una estructura estatica
+     * @param file representa el archivo a cargar
+     * @return un arreglo cargado.
+     */
     public static int[] cargar_arreglos(String file)
     {
         List<String> lines = new ArrayList<>();
@@ -68,6 +84,11 @@ public class Arreglo
         return arreglo;
     }
 
+    /**
+     * Se usa para cargar un txt dentro de una estructura dinamica.
+     * @param file representa el archivo a cargar
+     * @return un arraylist lleno.
+     */
     public static ArrayList<Integer> cargar_arrayList(String file) {
         ArrayList<Integer> lista = new ArrayList<>();
 
@@ -89,6 +110,7 @@ public class Arreglo
     }
 
 
+    // Metodo usado para conseguir el path del proyecto.
     private static String getPath ( String ruta )
 	{
 		String raiz = System.getProperty("user.dir");
